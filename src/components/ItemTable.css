@@ -1,0 +1,80 @@
+.item-table-container {
+    margin: 20px;
+    overflow: auto; /* add overflow property */
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+.table td input{
+    width: 75%;
+}
+
+.table th {
+    font-weight: bold;
+    text-align: left;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.delete-icon {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    background-color: #DC3545;
+    padding: 4px;
+    border-radius: 5px
+}
+
+.add-row-button {
+    /* width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    font-size: 20px;
+    color: white;
+    border: none;
+    */
+    font-weight: bold;
+    background-color: #ececec;
+    cursor: pointer;
+    padding: 2px;
+    width: 300px;
+    border: 3px dotted #ccc;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.currency-container {
+    margin-top: 20px;
+}
+
+.currency-label {
+    margin-right: 10px;
+}
+/* Add the following styles to keep the title of each row right above its corresponding fields */
+.table th {
+    font-weight: bold;
+    text-align: left;
+    background-color: #f5f5f5;
+}
+
+.table th div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table th div span {
+    flex-grow: 1;
+}
