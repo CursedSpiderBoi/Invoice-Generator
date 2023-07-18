@@ -55,7 +55,9 @@ function App() {
       />
       <div className="container my-4 mx-5">
         <div className="card text-center ">
-          <div className="card-header bg-primary text-white">Invoice Generator</div>
+          <div className="card-header bg-primary text-white">
+            Invoice Generator
+          </div>
           <div className="card-body">
             <form className="mx-3 my-3">
               <div className="row mb-3">
@@ -118,7 +120,9 @@ function App() {
               onRemoveItem={handleRemoveItem}
             />
           </div>
-          <div className="card-footer bg-light text-muted">Looking Forward to it</div>
+          <div className="card-footer bg-light text-muted">
+            Looking Forward to it
+          </div>
         </div>
       </div>
     </>
@@ -126,3 +130,4 @@ function App() {
 }
 
 export default App;
+
